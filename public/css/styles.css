@@ -1,0 +1,220 @@
+body {
+  font-family: "Montserrat-Bold";
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  color: black;
+  line-height: 1.5;
+  font-size: 3rem;
+  padding-top: 6rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+p {
+  color: brown;
+  font-size: 1.2rem;
+}
+
+#features {
+  background-color: #ffff9d;
+  padding: 3% 12%;
+  position: relative;
+}
+
+/*--------NAVIGATION BAR------------*/
+#title {
+  background-color: #ffa41b;
+  padding-bottom: 8%;
+}
+
+.container-fluid {
+  padding: 3% 12% 0 12%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: 'Montserrat';
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 4px 20px 4px 20px;
+  color: black;
+}
+
+/*-----------PAGE-1-- TOP------------*/
+.col-lg-6 {
+  padding-left: 20px;
+}
+
+.download-button {
+  padding: 10px;
+}
+
+.fab fa-google-play {
+  padding-right: 40px;
+}
+
+.fab fa-apple {
+  font-size: 20px;
+}
+
+.mydog {
+  margin-left: 20%;
+  margin-top: 25%;
+  margin-bottom: 0;
+  width: 300px;
+  height: 620px;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+/*--------FEATURE BOX--------------*/
+.feature-box {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.col-lg-4 {
+  margin: 8rem 0 8rem 0;
+}
+
+.icon-line1 {
+  color: #ffa41b;
+  padding-bottom: 1rem;
+}
+
+.icon-line1:hover {
+  color: #d3560e;
+}
+
+/*---------TESTIMONIALS-------------*/
+#testimonials {
+  background-color: #ffa41b;
+  color: white;
+  text-align: center;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 15%;
+  margin: 40px 10px 20px 50px;
+  border-radius: 100%;
+}
+
+.testimonial-imgtext {
+  margin-left: 5%;
+}
+
+/*---------PRESS------------*/
+#press {
+  background-color: #ffa41b;
+  text-align: center;
+}
+
+.press-logo {
+  width: 12%;
+  padding: 20px 20px 20px 15px;
+}
+
+/*-------PRICING-----------*/
+#pricing {
+  background-color: #ffff9d;
+  text-align: center;
+  padding: 5% 12%;
+}
+
+.pricing-clmn {
+  margin-top: 3%;
+  color: black;
+  padding: 2%;
+  background-color: #ffa41b;
+}
+
+.card-header {
+  background-color: #ef962d;
+}
+
+/*------------CTA-------*/
+#cta {
+  text-align: center;
+  background-color: #ffa41b;
+  padding: 5% 20%;
+}
+
+#cta h3 {
+  font-size: 50px;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.enddownld-btn {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/*-----------FOOTER-----------*/
+#footer {
+  text-align: center;
+  padding: 6% 20% 3%;
+  background-color: #ffff9d;
+}
+
+.fa-lg {
+  padding: 1%;
+}
+
+.copyright-txt {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #706c61;
+}
+
+/*----MEDIA QUERY -------------*/
+@media (max-width:1000px) {
+  .mydog {
+    padding: 0;
+    margin-top: 25%;
+    margin-bottom: 0;
+    width: 300px;
+    height: 620px;
+    transform: rotate(0deg);
+    position: relative;
+    right: 50px;
+  }
+
+  #title {
+    background-color: #ffa41b;
+    padding-bottom: 10%;
+  }
+
+  .col-lg-6 {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .nav-item {
+    font-size: 1.2rem;
+    padding: 4px 20px 4px 20px;
+    color: black;
+    text-align: right;
+  }
+}
